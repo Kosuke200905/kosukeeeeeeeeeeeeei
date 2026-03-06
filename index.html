@@ -1,1 +1,140 @@
-中西は神
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>中西 | Gentleman's Page</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: "Georgia","Times New Roman",serif;
+    background: linear-gradient(135deg,#0f0f0f,#1c1c1c);
+    color:white;
+}
+
+.container{
+    width:70%;
+    margin:auto;
+    padding-top:80px;
+}
+
+header{
+    text-align:center;
+    margin-bottom:60px;
+    animation: fadeDown 1.5s ease;
+}
+
+h1{
+    font-size:50px;
+    letter-spacing:4px;
+}
+
+.subtitle{
+    color:#bbbbbb;
+    font-style:italic;
+}
+
+section{
+    background:rgba(255,255,255,0.05);
+    padding:30px;
+    margin-bottom:30px;
+    border-radius:10px;
+    backdrop-filter: blur(5px);
+    transition: transform 0.4s, box-shadow 0.4s;
+    animation: fadeUp 1.5s ease;
+}
+
+section:hover{
+    transform: translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
+
+h2{
+    border-left:4px solid gold;
+    padding-left:10px;
+}
+
+ul{
+    line-height:1.8;
+}
+
+footer{
+    text-align:center;
+    margin-top:50px;
+    color:#aaa;
+}
+
+/* アニメーション */
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes fadeDown{
+    from{
+        opacity:0;
+        transform:translateY(-40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>中西 孝介</h1>
+<p class="subtitle">A Gentleman in Pursuit of Knowledge</p>
+</header>
+
+<section>
+<h2>ご挨拶</h2>
+<p>
+はじめまして。中西と申します。<br>
+知識と教養を大切にし、日々学び続けています。<br>
+このページでは、私について簡単に紹介しています。
+</p>
+</section>
+
+<section>
+<h2>プロフィール</h2>
+<ul>
+<li>名前：中西</li>
+<li>国：日本</li>
+<li>興味：読書・教養・国際社会</li>
+<li>目標：世界で活躍できる教養人になること</li>
+</ul>
+</section>
+
+<section>
+<h2>Philosophy</h2>
+<p>
+Knowledge makes a man intelligent.<br>
+Culture makes a man a gentleman.
+</p>
+</section>
+
+<footer>
+<p>© 2026 Kosuke Nakanishi</p>
+</footer>
+
+</div>
+
+</body>
+</html>
+```
